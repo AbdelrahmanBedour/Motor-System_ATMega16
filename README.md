@@ -1,4 +1,4 @@
 # Motor-System_ATMega16
-### Description: :controlling a motor speed with a generated PWM signal adjusted by a potentiometer connected to ADC and a reversing direction push button with LCD for displaying the motor’s speed
-### Implemented drivers: used Timer0 normal mode with 3 interrupts INT0, INT1 and INT2 with the internal pullup resistors.
+### Description: implmented the internal capture unit manually using Timer0 and INTmeasuring the duty cycle of an input signal by measure the whole period of the signal and the high time and displaying the duty cycle percentage on LCD
+### Implemented drivers: used Timer0 normal mode with interrupt INT0
 
